@@ -1,0 +1,29 @@
+public class DummyJavaProgram {
+    public static void main(String[] args) {
+        // Step 1: Print a welcome message
+        System.out.println("Welcome to the Dummy Java Program!");
+
+        // Step 2: Perform a basic mathematical operation
+        int a = 10;
+        int b = 20;
+        int sum = a + b;
+        System.out.println("Sum of " + a + " and " + b + " is: " + sum);
+
+        // Step 3: Print a loop
+        System.out.println("\nPrinting numbers from 1 to 5:");
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
+        }
+
+        // Step 4: Check and print whether a number is even or odd
+        int number = 15;
+        if (number % 2 == 0) {
+            System.out.println("\nThe number " + number + " is Even.");
+        } else {
+            System.out.println("\nThe number " + number + " is Odd.");
+        }
+
+        // Step 5: Print a simple message indicating the end of the program
+        System.out.println("\nDummy Java Program execution completed successfully!");
+    }
+}
